@@ -8,9 +8,6 @@ func quickSort(nums []int) []int {
 
 	quickSortRecursive(nums, 0, len(nums)-1)
 
-	// for _,v :=range nums {
-	// 	res = append(res, v)
-	// }
 	res = append(res, nums...)
 	return res
 }
